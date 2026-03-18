@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dl-course-ai"
+version = "0.1.0"
+description = ""
+authors = ["Mikhail Barinov <mbarinov@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.15"
+ipykernel = "^7.2.0"
+transformers = "^5.3.0"
+datasets = "^4.8.2"
+evaluate = "^0.4.6"
+torch = "^2.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
